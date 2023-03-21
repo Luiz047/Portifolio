@@ -1,0 +1,189 @@
+.ContainerSobre {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.titleSobre {
+
+    font-size: 3.8rem;
+    color: #7766DD;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 22px;
+}
+
+.pSobre {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+    width: 60%;
+    text-align: justify;
+}
+
+.skill  p{
+
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.secao-barras{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+  }
+  
+  .secao-barras:hover > :not(:hover) {
+  opacity:.4;
+  transform: scale(0.9);
+  }
+  
+  
+  
+  .barras {
+    width: 100%;
+    position: relative;
+    transition: .100s; 
+   
+   
+  }
+  
+  .barra {
+    width: 100%;
+    height: 5px;
+    background-color: #CCC;
+    position: relative;
+  }
+  
+  
+  
+  .barra .progress-bar1{
+   position: absolute;
+   height: 100%;
+   background-color: #7766DD;
+   animation: progress-animation1 10s linear ;
+   animation-fill-mode: forwards;
+  }
+  
+  .barra .progress-bar2{
+    position: absolute;
+    height: 100%;
+    background-color: #7766DD;
+    animation: progress-animation2 10s linear ;
+    animation-fill-mode: forwards;
+   }
+  
+   
+   .barra .progress-bar3{
+    position: absolute;
+    height: 100%;
+    background-color: #7766DD;
+    animation: progress-animation3 10s linear ;
+    animation-fill-mode: forwards;
+   }
+  
+   .barra .progress-bar4{
+    position: absolute;
+    height: 100%;
+    background-color: #7766DD;
+    animation: progress-animation4 10s linear ;
+    animation-fill-mode: forwards;
+   }
+  
+  @keyframes progress-animation1{
+    0% { width: 0%; } 
+    100% { width: 70%}
+  }
+  
+  @keyframes progress-animation2{
+    0% { width: 0%; } 
+    100% { width: 100%}
+  }
+  
+  @keyframes progress-animation3{
+    0% { width: 0%; } 
+    100% { width: 100%}
+  }
+  
+  @keyframes progress-animation4{
+    0% { width: 0%; } 
+    100% { width: 100%}
+  }
+  
+  .barras div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  
+  .secao-sobre-container {
+    display:flex;
+  }
+  
+  @media (max-width: 768px) {
+    .secao-sobre-container {
+     flex-direction: column-reverse;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      width: 100%;
+    }
+  
+    .secao-sobre {
+      padding-top: 70px;
+    }
+  
+    .sobre-mim {
+      width: 80%;
+    }
+  
+    .secao-barras {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 650px) and (min-width: 268px)  {
+    .secao-sobre-container {
+     flex-direction: column-reverse;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      width: 100%;
+  
+    }
+  
+    .sobre-mim {
+      width: 100%;
+      padding-bottom: 18px;
+      font-size: 15px;
+    }
+    .sobre-mim h3 {
+      font-size: 22px;
+    }
+  
+    .sobre-mim h4 { font-size: 15px;}
+  
+    .secao-barras {
+      width: 90%;
+    }
+  
+    .sobre-mim p {
+      font-size: 15px;
+    }
+  
+    .secao-sobre {
+      height: auto;
+      padding: 70px 25px 25px 25px;
+    }
+  }

@@ -1,0 +1,113 @@
+header{
+
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    position:fixed;
+    z-index: 3;
+    height: 8% ;
+
+    background: linear-gradient(45deg,#6400B5,#410075,#8700F5,#7900DB,#1D0036);
+    background-size: 300% 300%;
+    animation: Colors 10s ease infinite;
+   
+}
+
+@keyframes Colors {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    
+    height: 70px;
+    font-size: 2rem;
+    text-shadow: 3px 1px 3px #000000;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 35px
+    
+
+}
+
+header nav {
+    width: 300px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav a {
+    color: #f2f2f2;
+    letter-spacing: .05rem;
+    font-weight: 600;
+    text-transform: lowercase;
+    padding: 1rem 0;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: right;
+    transition: color .3s ease-in-out;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  nav a::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0.5rem;
+    width: 0;
+    height: 0.125rem;
+    transition: all .6s ease;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+    background-color: #000000;
+  }
+  
+  nav a:hover {
+    color: #000000;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+
+header img:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    font-weight: 900;
+
+
+}
+@media(max-width: 390px) {
+
+    nav a {
+        font-size: 14px;
+    }
+    header img {
+        height: 40px
+    }
+    header nav {
+        justify-content: space-around;
+        padding: 10px;
+    }
+} 

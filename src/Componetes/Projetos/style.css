@@ -1,0 +1,108 @@
+.ContainerProjetos {
+
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BoxProjetos {
+
+    height: 80%;
+    width: 80%;
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+}
+.CardProjeto {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 5px 20px;
+    text-align: center;
+    height: 620px;
+    border-radius: 1.1REM 1.1REM 1REM 1REM;
+    align-items: stretch;
+    -webkit-box-shadow: -1px 1px 30px 3px #ae66dd;
+    -moz-box-shadow: -1px 1px 30px 3px #ae66dd;
+    box-shadow: -1px 1px 30px 3px #ae66dd;
+    border: 2px solid #c174f5;
+    
+}
+
+.CardProjeto h4 {
+
+    color: #3c1d50;
+    font-size: 1.5rem;
+}
+
+.IMGcard {
+    width: 100%;
+    border-radius: 1REM 1REM 0REM 0REM;
+}
+
+.textP {
+
+    color: #ae66dd;
+    font-size: 1.4rem;
+    padding: 10px;
+    text-align:left;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    height: 50%;
+
+    
+    
+
+    
+}
+
+.ROW {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+.btnP {
+
+    
+    text-decoration: none;
+    background-color: rgb(139, 90, 184);
+    padding:9px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color: #fdfdfd;
+    text-align: justify;
+    margin-bottom:  1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.btnP:hover {
+
+
+    background: linear-gradient(45deg,rgb(139, 90, 184),#7929bb,#8700F5,#7900DB,#5a1498);
+    background-size: 300% 300%;
+    animation: Colors 2.1s ease-in-out infinite;
+    
+
+}
+
+.CardProjeto:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.BoxProjetos:hover > :not(:hover) {
+    opacity: 0.22;
+    transform: scale(0.9);
+}

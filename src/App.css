@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+
+}
+
+.LimitadorWidth{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+html {
+  background-color: #252525;
+  scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #252525;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #000000;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #7766DD;
+  border-radius: 1rem;  
+}
+:target {
+  scroll-margin-top: 60px;
+}
+p {
+  color: #ffffff;
+}
+
