@@ -13,9 +13,9 @@
 }
 
 html {
-  background: linear-gradient(45deg,#0D0D0D,#262626,#404040,#595959,#404040,#262626,#0D0D0D);
-    background-size: 500% 500%;
-    animation: Colors 5s ease infinite;
+  background: linear-gradient(100deg,#470082,#260145,#6501b8,#2d0052,#130023);
+    background-size: 600% 500%;
+    animation: Colors 15s ease-in-out infinite;
   scroll-behavior: smooth;
 
 }

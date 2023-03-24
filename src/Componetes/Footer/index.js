@@ -21,7 +21,7 @@ export default function Footer() {
                     <h2> Redes Sociais</h2>
                     <div>
                         <img src="./assets/fb.png" title="Ícone facebook" alt="Ícone facebook"/>
-                        <span>/AgenciaDeViagem</span>
+                        <span>Luiz Roberto</span>
                     </div>
                     <div>
                         <img src="./assets/ig.png" title="Ícone instagram" alt="Ícone instagram"/>
