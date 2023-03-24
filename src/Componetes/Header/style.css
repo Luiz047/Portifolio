@@ -1,16 +1,13 @@
 header{
-
     width: 100%;
     padding: 10px 20px;
     display: flex;
     position:fixed;
     z-index: 3;
     height: 8% ;
-
     background: linear-gradient(45deg,#6400B5,#410075,#8700F5,#7900DB,#1D0036);
     background-size: 300% 300%;
     animation: Colors 10s ease infinite;
-   
 }
 
 @keyframes Colors {
@@ -32,11 +29,9 @@ header div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .logo {
-    
     height: 70px;
     font-size: 2rem;
     text-shadow: 3px 1px 3px #000000;
@@ -44,9 +39,12 @@ header div{
     text-decoration: none;
     font-family: 'Great Vibes', cursive;
     margin-top: 35px
-    
-
 }
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
 
 header nav {
     width: 300px;
@@ -60,7 +58,7 @@ nav a {
     color: #f2f2f2;
     letter-spacing: .05rem;
     font-weight: 600;
-    text-transform: lowercase;
+    
     padding: 1rem 0;
     font-size: 1.15rem;
     line-height: 1.5;
@@ -68,9 +66,10 @@ nav a {
     transition: color .3s ease-in-out;
     position: relative;
     text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
-  nav a::after {
+nav a::after {
     position: absolute;
     content: '';
     left: 0;
@@ -80,12 +79,12 @@ nav a {
     transition: all .6s ease;
   }
   
-  nav a:hover::after {
+nav a:hover::after {
     width: 100%;
     background-color: #000000;
   }
   
-  nav a:hover {
+nav a:hover {
     color: #000000;
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
@@ -102,15 +101,22 @@ header img:hover{
 @media(max-width: 410px) {
 
     nav a {
-        font-size: 12px;
+        font-size: 13px;
     }
     header img {
         height: 40px
     }
     header nav {
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         padding: 10px;
-        width:90%;
+        width:70%;
+    }
+    .logo {
+    
+        margin-top: 50px;
+        font-size: 1.5rem;
+        
+    
     }
 } 

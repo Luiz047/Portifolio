@@ -5,7 +5,7 @@
     justify-content: center;
     flex-direction: column;
     height: 90vh;
-    background-color: #252525;
+ 
 }
 
 .BoxSobre {
@@ -20,12 +20,13 @@
 
 .titleSobre {
 
-    font-size: 3.8rem;
-    color: #7766DD;
+    font-size: 4.5rem;
+    color: #fbfbfb;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'DM Serif Display', serif;
     margin-bottom: 22px;
+    text-shadow: 2px 2px 3px #252525;
 }
 
 .pSobre {
@@ -35,6 +36,7 @@
     padding: 20px;
     width: 72%;
     text-align: justify;
+    text-shadow: 2px 2px 3px #252525;
 }
 
 .skill  p{
@@ -179,6 +181,12 @@
   }
   
   @media (max-width: 650px) and (min-width: 268px)  {
+
+
+    .titleSobre {
+      font-size: 3rem;
+    }
+
     .secao-sobre-container {
      flex-direction: column-reverse;
      display: flex;
@@ -200,11 +208,11 @@
     .sobre-mim h4 { font-size: 15px;}
   
     .secao-barras {
-      width: 90%;
+      width: 75%;
     }
   
     .sobre-mim p {
-      font-size: 12px;
+      font-size: 10px;
     }
   
     .secao-sobre {
@@ -221,4 +229,10 @@
       margin-top: 10px;
     }
 
+    .skill  p{
+
+      font-size: 20px;
+      
+  
+  }
   }
