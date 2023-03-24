@@ -22,12 +22,9 @@ export default function Habilidades() {
             <div className='CardSkills'>
                 <div className='reverso'>
                 <h4 className='titleSkills'> Css </h4>
-<<<<<<< HEAD
                  <img src='./assets/CSS.png' className='imgSkills'/>
                  </div>
-=======
-                 <img src='./assets/css.png' className='imgSkills'/>
->>>>>>> ec2841fb3f61e385a19f7cadbd4a437b9746ec5e
+               <img src='./assets/css.png' className='imgSkills'/>
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/css/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"}> Certificado </a>
             </div>
 
@@ -52,12 +49,12 @@ export default function Habilidades() {
             <div className='CardSkills'>
             <div className='reverso'>
                 <h4 className='titleSkills'> Git </h4>
-<<<<<<< HEAD
+
                  <img src='./assets/Git.png' className='imgSkills'/>
                  </div>
-=======
+
                  <img src='./assets/git.png' className='imgSkills'/>
->>>>>>> ec2841fb3f61e385a19f7cadbd4a437b9746ec5e
+
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/git/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"} > Certificado </a>
             </div>
             
