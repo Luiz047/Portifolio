@@ -22,7 +22,7 @@ export default function Habilidades() {
             <div className='CardSkills'>
                 <div className='reverso'>
                 <h4 className='titleSkills'> Css </h4>
-                 <img src='./assets/CSS.png' className='imgSkills'/>
+                 <img src='./assets/css.png' className='imgSkills'/>
                  </div>
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/css/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"}> Certificado </a>
             </div>
@@ -48,7 +48,7 @@ export default function Habilidades() {
             <div className='CardSkills'>
             <div className='reverso'>
                 <h4 className='titleSkills'> Git </h4>
-                 <img src='./assets/Git.png' className='imgSkills'/>
+                 <img src='./assets/git.png' className='imgSkills'/>
                  </div>
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/git/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"} > Certificado </a>
             </div>
