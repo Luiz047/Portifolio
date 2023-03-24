@@ -5,9 +5,8 @@ export default function Habilidades() {
     return(
 
         <section className='ContainerSkills ' id='Habilidades'>
-
             <h2 className='titleSobre'>Habilidades</h2>
-
+            
             <div className='BoxSkills'>
 
             <div className='CardSkills'>
@@ -17,17 +16,12 @@ export default function Habilidades() {
                  </div>
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/html/luiz-roberto-13' className='CERTIFICADO 'target={"_blank"}> Certificado </a>
             </div>
-            
 
             <div className='CardSkills'>
                 <div className='reverso'>
                 <h4 className='titleSkills'> Css </h4>
-<<<<<<< HEAD
                  <img src='./assets/CSS.png' className='imgSkills'/>
                  </div>
-=======
-                 <img src='./assets/css.png' className='imgSkills'/>
->>>>>>> ec2841fb3f61e385a19f7cadbd4a437b9746ec5e
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/css/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"}> Certificado </a>
             </div>
 
@@ -38,7 +32,6 @@ export default function Habilidades() {
                  </div>
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/javascript/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"}> Certificado </a>
             </div>
-            
 
             <div className='CardSkills'>
             <div className='reverso'>
@@ -47,20 +40,15 @@ export default function Habilidades() {
                  </div>
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/react/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"}> Certificado </a>
             </div>
-            
+    
 
             <div className='CardSkills'>
             <div className='reverso'>
                 <h4 className='titleSkills'> Git </h4>
-<<<<<<< HEAD
                  <img src='./assets/Git.png' className='imgSkills'/>
                  </div>
-=======
-                 <img src='./assets/git.png' className='imgSkills'/>
->>>>>>> ec2841fb3f61e385a19f7cadbd4a437b9746ec5e
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/git/luiz-roberto-13' className='CERTIFICADO ' target={"_blank"} > Certificado </a>
             </div>
-            
 
             <div className='CardSkills'>
             <div className='reverso'>
@@ -70,7 +58,6 @@ export default function Habilidades() {
                  <a href='https://www.devmedia.com.br/certificado/tecnologia/sql/luiz-roberto-13' className='CERTIFICADO 'target={"_blank"}> Certificado </a>
             </div>
           
-
             </div>
         </section>
     )
