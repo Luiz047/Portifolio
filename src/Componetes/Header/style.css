@@ -98,16 +98,19 @@ header img:hover{
 
 
 }
-@media(max-width: 390px) {
+
+@media(max-width: 410px) {
 
     nav a {
-        font-size: 14px;
+        font-size: 12px;
     }
     header img {
         height: 40px
     }
     header nav {
         justify-content: space-around;
+        align-items: center;
         padding: 10px;
+        width:90%;
     }
 } 

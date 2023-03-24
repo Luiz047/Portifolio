@@ -5,6 +5,17 @@
     justify-content: center;
     flex-direction: column;
     height: 90vh;
+    background-color: #252525;
+}
+
+.BoxSobre {
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .titleSobre {
@@ -20,9 +31,9 @@
 .pSobre {
 
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 20px;
-    width: 60%;
+    width: 72%;
     text-align: justify;
 }
 
@@ -130,6 +141,13 @@
   .secao-sobre-container {
     display:flex;
   }
+
+  @media (max-width: 1124px) {
+  .pSobre { 
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  }
   
   @media (max-width: 768px) {
     .secao-sobre-container {
@@ -151,6 +169,13 @@
     .secao-barras {
       width: 80%;
     }
+
+    .pSobre { 
+      width: 90%;
+      font-size: 1.5rem;
+    }
+
+
   }
   
   @media (max-width: 650px) and (min-width: 268px)  {
@@ -179,11 +204,21 @@
     }
   
     .sobre-mim p {
-      font-size: 15px;
+      font-size: 12px;
     }
   
     .secao-sobre {
       height: auto;
       padding: 70px 25px 25px 25px;
     }
+    .pSobre { 
+      width: 95%;
+      font-size: 1.2rem;
+    }
+    .titleSobre {
+
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+
   }

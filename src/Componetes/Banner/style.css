@@ -6,6 +6,14 @@
     justify-content:  space-evenly;
     height: 90vh;
 }
+.card{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
 .card h1{
 
     color: #F2F2F2;
@@ -17,18 +25,18 @@
     
 
 }
-.card p {
-
+.area {
     color:#9FA2A6 ;
     white-space: nowrap;
     margin-bottom: 10px;
     font-family: 'Oswald', sans-serif;
+    font-size: 2.3rem;
 
 }
 .euft {
 
     
-    height: 600px;
+    height: 450px;
 }
 
 .BtnBanner {
@@ -55,4 +63,72 @@
     transition: all  0.5s ease-in-out;
     letter-spacing: 4.5px;
     
+}
+
+@media(min-width: 768px) and (max-width:1024px) {
+
+    .card h1{
+        font-size:3.5rem;
+    }
+    .area {
+    
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    .euft {
+
+    
+        height: 500px;
+    }
+}
+@media(min-width: 450px) and (max-width:768px) {
+
+    .card h1{
+        font: size 2.5rem;
+    }
+    .card p {
+    
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    .euft {
+
+    
+        height: 350px;
+    }
+}
+@media(min-width: 300px) and (max-width:450px) {
+
+    .card h1{
+        font-size: 2rem;
+    }
+    .card p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .euft {
+        height: 300px;
+    }
+    .BtnBanner {
+     
+        
+        font-size: 14px;
+        border: 2px solid #f2f2f2;
+        border-radius: 3rem;
+        padding: 5px;
+        margin-right: 6px;
+        margin-top: 10px;
+        
+    }
+}
+
+@media(max-width:370px) {
+    .euft {
+        height: 250px;
+    }
 }

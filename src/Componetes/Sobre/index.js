@@ -5,6 +5,7 @@ export default function Sobre() {
     return(
 
         <section className='ContainerSobre' id='Sobre'>
+          <div className='BoxSobre'>
             <h2 className='titleSobre'>Sobre </h2>
             <p className='pSobre'>Olá, me chamo Luiz. Sou um Desenvolvedor Front-end e estou estudando Back-end, gosto de café, esportes e videogames.
              Meu portfólio tem projetos que desenvolvi Durante  sobre as tecnologias da web. 
@@ -59,6 +60,7 @@ export default function Sobre() {
             </div>
           </div>
 
+        </div>
         </div>
         </section>
     )

@@ -25,7 +25,7 @@
 
 .CardSkills {
 
-    width: 15%;
+    width: 20%;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -59,12 +59,18 @@
     font-size: 20px;
 
 }
+.reverso {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .CERTIFICADO {
 
     text-decoration: none;
     background-color: #ae66dd;
-    padding: 10px;
+    padding: 9px;
     margin-top: 20px;
     border-radius: 20px;
     border: none;
@@ -81,4 +87,89 @@
     animation: Colors 2.25s ease-in-out infinite;
     
 
+}
+
+@media(min-width: 768px) and (max-width:1024px) {
+
+
+    .ContainerSkills{
+
+        height: 100vh;
+    }
+
+    .BoxSkills {
+
+        width: 768px;
+    }
+}
+
+@media(min-width: 450px) and (max-width:768px) {
+
+    .BoxSkills {
+        width: 600px;
+    }
+
+    .CERTIFICADO {
+
+        padding: 5px;
+    }
+
+    .imgSkills {
+
+        width: 80px ;
+        height: 80px;
+
+    }
+    .CardSkills{
+
+    height: 40%;
+  }
+
+}
+
+@media(min-width: 300px) and (max-width:580px) {
+    .ContainerSkills {
+        height: 100vh;
+        padding: 50px;
+    }
+    .BoxSkills {
+        height: 75%;
+        width: 85%;
+        flex-direction: column;
+    }
+
+    .titleSkills {
+        font-size: 0.75rem;
+    }
+    .CERTIFICADO {
+        font-size: 12px;
+        padding: 6px;
+        margin-top: 4px;
+      
+    }
+
+    .imgSkills {
+        width: 55px ;
+        height: 55px;
+
+    }
+    .CardSkills{
+        height: 18%;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+    .BoxSkills:hover > :not(:hover) {
+        opacity: 0.22;
+        transform: scale(0.9);
+    }
+    
+    .reverso {
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
 }

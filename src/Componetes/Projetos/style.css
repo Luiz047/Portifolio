@@ -1,23 +1,21 @@
 .ContainerProjetos {
-
     height: 900px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .BoxProjetos {
-
     height: 80%;
     width: 80%;
     background-color: #252525;
     display: flex;
     flex-direction: row;
-}
-.CardProjeto {
+}  
 
+.CardProjeto {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -31,11 +29,10 @@
     -moz-box-shadow: -1px 1px 30px 3px #ae66dd;
     box-shadow: -1px 1px 30px 3px #ae66dd;
     border: 2px solid #c174f5;
-    
+    height: auto;
 }
 
 .CardProjeto h4 {
-
     color: #3c1d50;
     font-size: 1.5rem;
 }
@@ -46,33 +43,21 @@
 }
 
 .textP {
-
     color: #ae66dd;
     font-size: 1.4rem;
     padding: 10px;
     text-align:left;
     font-family: 'Josefin Sans', sans-serif;
-    
-    height: 50%;
-
-    
-    
-
-    
+    height: 55%;
 }
 
 .ROW {
-
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    
-
+    align-items: center;
 }
 .btnP {
-
-    
     text-decoration: none;
     background-color: rgb(139, 90, 184);
     padding:9px;
@@ -84,17 +69,12 @@
     margin-bottom:  1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-
 }
 
 .btnP:hover {
-
-
     background: linear-gradient(45deg,rgb(139, 90, 184),#7929bb,#8700F5,#7900DB,#5a1498);
     background-size: 300% 300%;
     animation: Colors 2.1s ease-in-out infinite;
-    
-
 }
 
 .CardProjeto:hover{
@@ -105,4 +85,72 @@
 .BoxProjetos:hover > :not(:hover) {
     opacity: 0.22;
     transform: scale(0.9);
+}
+
+@media(min-width: 768px) and (max-width:1120px) {
+
+    .ContainerProjetos {
+        height: auto;
+    }
+    .BoxProjetos {
+        height: 100%;
+        width: 80%;
+        background-color: #252525;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .IMGcard {
+        width: 100%;
+        height: 52%;
+    }
+
+    .CardProjeto{
+        margin: 20px 0px;
+    }
+}
+@media(min-width: 450px) and (max-width:768px) {
+    .ContainerProjetos {
+        height: auto;
+    }
+    .BoxProjetos {
+        height: 100%;
+        width: 80%;
+        background-color: #252525;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .IMGcard {
+        width: 100%;
+        height: 52%;
+    }
+
+    .CardProjeto{
+        margin: 20px 0px;
+    }
+}
+@media(min-width: 300px) and (max-width:450PX) {
+    .ContainerProjetos {
+        height: auto;
+    }
+    .BoxProjetos {
+        height: 100%;
+        width: 100%;
+        background-color: #252525;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+  
+    
+    .IMGcard {
+        width: 100%;
+        height: 52%;
+    }
+
+    .CardProjeto{
+        margin: 20px 0px;
+    }
+    
 }
