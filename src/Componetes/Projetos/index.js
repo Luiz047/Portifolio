@@ -28,7 +28,7 @@ export default function Projetos() {
                 <div className='CardProjeto'>
                      <img src='./assets/portifolio.png' className='IMGcard'/>
                      <h4>Meu portfólio</h4>
-                     <p className='textP'>Este é um projeto do meu site pessoal como Desenvolvedor, feito utilizando React.js . A iniciativa tem como objetivo principal atrair novos clientes e promover maior notoriedade ao empreendimento. Durante o desenvolvimento do projeto, pude aprimorar minhas habilidades em criaçao de Sites em React.js e Css.</p>
+                     <p className='textP'>Este é um projeto do meu site pessoal como Desenvolvedor, feito utilizando React.js . A iniciativa tem como objetivo principal mostrar minhas habilidades. Durante o desenvolvimento do projeto, pude aprimorar minhas habilidades em criaçao de Sites em React.js e animaçoes em Css.</p>
                   <div className='ROW'>
                     <a href='https://github.com/Luiz047/Portifolio'className='btnP' target={'_blank'}>GitHub</a> 
                     <a href='https://meuportifoliodev.vercel.app/' className='btnP' target={'_blank'}>Deploy</a>
