@@ -17,7 +17,7 @@ export default function Projetos() {
                     </div>
                 </div>
                 <div className='CardProjeto'>
-                     <img src='blob:https://vercel.com/5817d505-ec4c-40ec-ab2c-4bf24f2c370b' className='IMGcard'/>
+                     <img src='./assets/AMORdepet.png' className='IMGcard'/>
                      <h4>AMORdepet</h4>
                      <p className='textP'>Este foi um projeto de freelancer para criar um website responsivo em React.js para um cliente que possuía um PetShop, com o objetivo de conseguir agendar horarios e aumentar a visibilidade do negócio e atrair mais clientes. Durante o processo de desenvolvimento, pude aperfeiçoar minhas habilidades em React,js, CSS e Git.</p>
                    <div className='ROW'> 
@@ -26,7 +26,7 @@ export default function Projetos() {
                    </div>  
                 </div>
                 <div className='CardProjeto'>
-                     <img src='blob:https://vercel.com/9f085016-334e-4a24-8200-b3821f62d734' className='IMGcard'/>
+                     <img src='./assets/portifolio.png' className='IMGcard'/>
                      <h4>Meu portfólio</h4>
                      <p className='textP'>Este é um projeto do meu site pessoal como Desenvolvedor, feito utilizando React.js . A iniciativa tem como objetivo principal atrair novos clientes e promover maior notoriedade ao empreendimento. Durante o desenvolvimento do projeto, pude aprimorar minhas habilidades em criaçao de Sites em React.js e Css.</p>
                   <div className='ROW'>
