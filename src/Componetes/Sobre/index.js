@@ -7,12 +7,11 @@ export default function Sobre() {
         <section className='ContainerSobre' id='Sobre'>
           <div className='BoxSobre'>
             <h2 className='titleSobre'>Sobre </h2>
-            <p className='pSobre'>Olá, me chamo Luiz. Sou um Desenvolvedor Front-end e estou estudando Back-end, gosto de café, esportes e videogames.
-             Meu portfólio tem projetos que desenvolvi Durante  sobre as tecnologias da web. 
-             Embora não tenha experiência profissional, estou sempre procurando novas oportunidades para aprender e crescer nesta área emocionante.
-             Vamos trabalhar juntos em seu próximo projeto e transformar ideias em realidade!</p>
-
-             <div className='secao-barras'>
+            <p className='pSobre'>Olá, me chamo Luiz, Atualmente sou um Desenvolvedor Front-end, e desde que tive o primeiro contato com programação fiquei fascinado com as possibilidades.
+              Então comecei a estudar todos os dias para melhorar minhas habilidades nas tecnologias web, alem de programar gosto de café, esportes e Counter Strike.
+              Aqui no meu portfólio voce encontrara projetos que desenvolvi Para alguns comercios da minha cidade. 
+              Embora não tenha experiência profissional comprovada, estou sempre procurando novas oportunidades para aprender e crescer nesta área!</p>
+           <div className='secao-barras'>
 
           <div className='barras'>
             <div className='skill'>
